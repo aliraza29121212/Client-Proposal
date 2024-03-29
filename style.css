@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+.widget-body.MuiBox-root.css-0 {
+    background: url(https://files.owlapplicationbuilder.com/img/hero-image-bg.png),#e4ebf9!important;
+    background-size: contain!important;
+}
+  #error-message{
+      color: red;
+      margin-top: 5px;
+    }
+    
+    
+    .ck-content h2 , .ck-content h3 .ck-content h4 {
+    margin-bottom: 10px !important;
+    color: black;
+    text-align: left;
+}
+#planCCencellationGroup{
+  display:none !important;
+}
+textarea#projectDescription , textarea#serviceDescCustom {
+    border-radius: 8px !important;
+    border: 1px solid var(--Hover-Block, #E6F2FE) !important;
+    height: 100px;
+}
+.loader, .loaders {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #FFF;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin-left: 16px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+button#downloadproposal {
+    border-radius: 30px;
+    border: 1px solid var(--primay-blue-500-main, #116DFF);
+    background: #FFF;
+    display: inline-flex;
+    padding: 8px 18px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px;
+    color: var(--primay-blue-500-main, #116DFF);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    transition: all 0.3s ease-in-out !important;
+    position: absolute;
+    right: 192px;
+    bottom: 0px;
+}  
+  
+  .service-form {
+            display: none;
+            margin-top: 10px;
+        }
+           .subtotal {
+    background: #e2f2fe;
+    border-radius: 6px;
+    display: flex;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.submitQuotation, .updateQuotation {
+    display: flex;
+    float: right;
+    margin-top: 20px !important;
+    border-radius: 30px;
+    border: 1px solid var(--primay-blue-500-main, #116DFF);
+    background: var(--primay-blue-500-main, #116DFF);
+    color: white;
+    padding: 8px 15px;
+}
+button {
+  cursor: pointer;
+}
+.subtotalinfo{
+      gap: 10px;
+    margin-left: auto;
+  
+}
+        .delete{
+              border-radius: 30px;
+    background: #EC1C24;
+    color: white;
+    padding: 6px 10px;
+        }
+        .save {
+    display: flex;
+    margin-left: auto;
+    border-radius: 30px;
+    background: #116DFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+        .servieListing thead{
+    border-radius: 12px 12px 0px 0px !important;
+    border: 1px solid #E1E3E6;
+    background: #F3F6F6;
+        }
+        .servieListing thead th{
+       color: var(--Link-Text-Color, #000624);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+        padding: 19px;
+
+        }
+        #serviceForm{
+          box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
+        }
+        #customServiceHeading{
+              width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--Hover-Block, #E6F2FE);
+    padding: 10px;
+        }
+        #customServiceHeading button{
+          color: var(--Text-Color, #162D3D);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0px;
+        }
+        .serviceFormHead{
+            border-radius: 6px 6px 0px 0px;
+    border-top: 4px solid var(--primay-blue-500-main, #116DFF);
+    background: var(--Grey-Background, #F7F8F8);
+    text-align: left;
+    padding: 14px;
+    border-bottom: 1px solid #00000014;
+    margin-bottom: 20px;
+        }
+        .serviceFormHead h2{
+          color: #101828;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+        }
+ #salesPersonName {
+    color: black; /* Change to the desired text color */
+  }
+h5.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-1xj0tm2 {
+    display: none !important;
+}
+.widget-body.MuiBox-root.css-0 {
+    background: #E4EBF9;
+}
+.parent_1701342031200  .businessProfileLayout{
+  background: #E4EBF9;
+}
+
+.layoutHeader_title{
+  color: #000;
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px; /* 150% */
+}
+.layoutHeader_para{
+  color: var(--Text-Color, #162D3D);
+font-family: Open Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.layoutHeader{
+  justify-content:space-between;
+}
+.layout_button{
+  border-radius: 30px;
+border: 1px solid var(--primay-blue-500-main, #116DFF);
+background: #FFF;
+display: inline-flex;
+padding: 10px 21px;
+justify-content: flex-end;
+align-items: center;
+gap: 7px;
+color: var(--primay-blue-500-main, #116DFF);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+    transition: all 0.3s ease-in-out !important;
+}
+.layout_button:hover{
+  
+  border: 1px solid var(--primay-blue-500-main, #116DFF);
+background: var(--primay-blue-500-main, #116DFF);
+color: #FFF;
+
+}
+.layout_button:hover .svg-Header{
+ fill: white !important; 
+}
+.svg-Header{
+      transition: all 0.3s ease-in-out !important;
+}
+
+.createQuotation {
+    width: 811px !important;
+    margin: auto;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+}
+.createQuotationHeader{
+      border-bottom: 1px solid var(--outline, #E1E3E6);
+}
+.createQuotationHeader h3 {
+    color: var(--primay-blue-500-main, #116DFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.createQuotation .modal-content {
+    border: none !important;
+    width: 741px !important;
+       border-radius: 14px !important;
+}
+.createQuotation label {
+    color: var(--Link-Text-Color, #000624);
+  font-family: Open Sans !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.required{
+  color: #FF0021;
+    margin-left: 5px;
+}
+.createQuotation input {
+    border-radius: 8px !important;
+    border: 1px solid var(--Hover-Block, #E6F2FE) !important;
+    height: 45px !important;
+}
+.createQuotation #sourcePlatform {
+    border-radius: 8px !important;
+    border: 1px solid var(--Hover-Block, #E6F2FE) !important;
+    height: 45px !important;
+}
+#selectUser, #selectService, #selectPaymentType, #selectPlanCen, #selectPlanRen , #interval {
+    border-radius: 8px !important;
+    border: 1px solid var(--Hover-Block, #E6F2FE) !important;
+    height: 45px !important;
+}
+div#emailSuggestions {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 92%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
+    height: 189px;
+    overflow-y: scroll;
+    display:none;
+}
+.emailSuggestionLayoutText {
+    color: var(--Link-Text-Color, #000624);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 20px;
+}
+#emailSuggestionLayout{
+  display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+.servicesSecpara{
+  color: var(--Place-Holder-Text, #868AA5);
+
+/* Body Text/Regular */
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.servicesSec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+body{
+    background: url(https://files.owlapplicationbuilder.com/img/hero-image-bg.png), #e4ebf9 !important;
+    background-size: contain !important;
+}
